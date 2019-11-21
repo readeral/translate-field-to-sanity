@@ -1,0 +1,38 @@
+{
+  "name": "translate-field-to-sanity",
+  "version": "0.1.0",
+  "description": "Translate a field of HTML or Markdown within NDJSON to portable text ready for upload",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "eslint .",
+    "start": "node ./bin"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "markdown-to-sanity": "./bin/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-config-sanity": "^0.141.5",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "@sanity/block-tools": "^0.141.5",
+    "@sanity/schema": "^0.141.5",
+    "graceful-fs": "^4.2.3",
+    "inquirer": "^6.5.0",
+    "inquirer-fuzzy-path": "^2.0.3",
+    "inquirer-path": "^1.0.0-beta5",
+    "jsdom": "^15.1.1",
+    "ndjson": "^1.5.0",
+    "remark-html": "^10.0.0",
+    "remark-parse": "^7.0.2",
+    "through2": "^3.0.1",
+    "unified": "^8.4.2"
+  }
+}
