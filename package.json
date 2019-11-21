@@ -1,6 +1,6 @@
 {
   "name": "translate-field-to-sanity",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Translate a field of HTML or Markdown within NDJSON to portable text ready for upload",
   "main": "src/index.js",
   "scripts": {
