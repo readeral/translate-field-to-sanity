@@ -30,7 +30,7 @@ yarn add translate-field-to-sanity
 As CLI:
 
 ```sh
-> markdown-to-sanity # follow the instructions
+> translate-field-to-sanity # follow the instructions
 ```
 
 The CLI will write a `ndjson`-file you can use with `sanity dataset import`. [Learn more about importing data to Sanity](https://www.sanity.io/docs/data-store/importing-data).
