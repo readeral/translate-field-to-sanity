@@ -12,7 +12,7 @@ npm i -g translate-field-to-sanity
 
 # or
 
-yarn add --global translate-field-to-sanity
+yarn global add translate-field-to-sanity
 ```
 
 As a project dependency:
