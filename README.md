@@ -34,3 +34,8 @@ As CLI:
 ```
 
 The CLI will write a `ndjson`-file you can use with `sanity dataset import`. [Learn more about importing data to Sanity](https://www.sanity.io/docs/data-store/importing-data).
+
+## Gotchas
+If you want to have a line break in your text string like
+`Here is a line break\nNew line starts here`
+then your HTML will need to use `&#10;` to represent the linebreak, not a `<Br />` tag. If you use a `<Br />` tag, you will get a `/n` character, but it will be within its own span in the Sanity block text. Using `&#10;` ensures it remains in-line with the current string.
