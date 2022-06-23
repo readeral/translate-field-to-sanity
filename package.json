@@ -27,7 +27,7 @@
     "inquirer": "^7.0.4",
     "inquirer-fuzzy-path": "^2.2.0",
     "inquirer-path": "^1.0.0-beta5",
-    "jsdom": "16.1.0",
+    "jsdom": "16.5.0",
     "ndjson": "^1.5.0",
     "remark-html": "^12.0.0",
     "remark-parse": "^8.0.3",
